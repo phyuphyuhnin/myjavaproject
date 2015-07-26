@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutY="-12.0" prefHeight="350.0" prefWidth="450.0">
+         <children>
+            <Label layoutX="39.0" layoutY="38.0" text="Contanct List">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <TableView fx:id="table" layoutX="39.0" layoutY="104.0" prefHeight="200.0" prefWidth="380.0">
+              <columns>
+                <TableColumn fx:id="name" prefWidth="122.0" text="Name" />
+                <TableColumn fx:id="dob" minWidth="7.0" prefWidth="138.0" text="Date Of Birth" />
+                  <TableColumn fx:id="phone" minWidth="7.0" prefWidth="138.0" text="Phone" />
+              </columns>
+            </TableView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
